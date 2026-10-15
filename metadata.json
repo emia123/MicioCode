@@ -1,0 +1,6 @@
+{
+  "name": "MicioCode",
+  "description": "Un ambiente di programmazione a blocchi ispirato a Scratch, con la mascotte Azuro il gattino blu. Supporta il salvataggio in formato .code e la pubblicazione dei progetti.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

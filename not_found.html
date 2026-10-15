@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Pagina Non Trovata | MicioCode</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+    }
+    .container {
+      max-width: 520px;
+      background: rgba(30, 41, 59, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      padding: 40px 32px;
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      background: rgba(59, 130, 246, 0.2);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .avatar-wrap {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 24px;
+      background: #3b82f6;
+      border-radius: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.5);
+    }
+    .avatar-wrap svg {
+      width: 80px;
+      height: 80px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    p {
+      color: #94a3b8;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #3b82f6;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      padding: 12px 28px;
+      border-radius: 14px;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+    }
+    .btn:hover {
+      background: #2563eb;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="badge">Errore 404</span>
+    <div class="avatar-wrap">
+      <!-- Azuro icon -->
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="42" fill="#3B82F6" stroke="#2563EB" stroke-width="4"/>
+        <path d="M22 28L32 10L42 22" fill="#3B82F6" stroke="#2563EB" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M78 28L68 10L58 22" fill="#3B82F6" stroke="#2563EB" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="36" cy="45" r="7" fill="white"/>
+        <circle cx="64" cy="45" r="7" fill="white"/>
+        <circle cx="36" cy="46" r="3.5" fill="#1E293B"/>
+        <circle cx="64" cy="46" r="3.5" fill="#1E293B"/>
+        <polygon points="50,56 46,61 54,61" fill="#F472B6"/>
+        <path d="M44 64Q50 68 56 64" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        <line x1="20" y1="52" x2="32" y2="54" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+        <line x1="20" y1="58" x2="32" y2="58" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+        <line x1="80" y1="52" x2="68" y2="54" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+        <line x1="80" y1="58" x2="68" y2="58" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <h1>Miao! Pagina non trovata</h1>
+    <p>La pagina o la risorsa che stai cercando non esiste o è stata spostata nel mondo di MicioCode.</p>
+    <a href="/" class="btn">
+      Torna all'Editor di MicioCode
+    </a>
+  </div>
+</body>
+</html>
